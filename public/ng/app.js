@@ -35,6 +35,11 @@ angular.module('nodeDC', [
         templateUrl: 'partials/partialMeetups',
         controller: 'MeetupsCtrl'
     })
+    .state('talkpick', {
+        url: '/talkpick',
+        templateUrl: 'partials/partialTalkpick',
+        controller: 'TalkpickCtrl'
+    })
     .state('irc', {
         url: '/irc',
         templateUrl: 'partials/partialIrc',
